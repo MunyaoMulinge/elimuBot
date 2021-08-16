@@ -136,4 +136,7 @@ def sample_responses(input_text):
     if user_message in ("goodbye", "thanks", "bye"):
         return "You're much welcome."
 
-    return "I don't understand you"
+    if user_message in ("gpa", "calculating gpa", "my gpa"):
+        return "Consult your respective dean for the above."
+
+    return "I don't understand you."
