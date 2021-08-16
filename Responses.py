@@ -133,4 +133,7 @@ def sample_responses(input_text):
     if user_message in ("meals", "cafeteria", "food"):
         return "You can get the services at the cafeteria all day.\nThere is a wide range of options to choose from"
 
+    if user_message in ("goodbye", "thanks", "bye"):
+        return "You're much welcome."
+
     return "I don't understand you"
