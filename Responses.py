@@ -134,7 +134,7 @@ def sample_responses(input_text):
         return "You can get the services at the cafeteria all day.\nThere is a wide range of options to choose from"
 
     if user_message in ("goodbye", "thanks", "bye"):
-        return "You're much welcome."
+        return "You're much welcome. Stay safe"
 
     if user_message in ("gpa", "calculating gpa", "my gpa"):
         return "Consult your respective dean for the assistance."
